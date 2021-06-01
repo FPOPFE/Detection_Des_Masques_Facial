@@ -19,7 +19,7 @@ import tensorflow as tf
 
 
 
-model = load_model('model-facemask.h5')
+model = load_model('model.h5')
 
 def processesing(arr):
   for i in arr:
